@@ -1,6 +1,6 @@
 
 body {
-    background-color: black;
+    background-color: rgb(131, 120, 120);
     color: white;
 }
 
@@ -26,4 +26,13 @@ body {
     align-items: center;
     justify-content: center;
     width: 60vw;
+}
+
+.icons {
+    height: 100px;
+    width: auto;
+}
+
+.skills-container {
+    display: flex;
 }
