@@ -14,12 +14,19 @@ body {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px;
     background-color: rgb(54, 52, 52);
-    gap: 30px;
+    position: fixed;
+    top: 0;
 }
 
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 .nav {
     color: white;
     transition: color .5s ease-out;
@@ -52,6 +59,7 @@ body {
     align-items: left;
     justify-content: center;
     flex-direction: column;
+    margin-top: 100px;
     gap: 100px;
 }
 
