@@ -124,3 +124,25 @@ body {
 .project-title {
     font-size: 20px;
 }
+
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.form-fields {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.message-field {
+    height: 100px;
+}
+
+.form-btn {
+    width: 50%;
+}
