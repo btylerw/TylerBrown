@@ -89,6 +89,18 @@ body {
     justify-content: center;
 }
 
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+}
+
+.proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .icons {
     height: 100px;
     width: auto;
@@ -129,6 +141,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 20px;
     width: 100%;
     gap: 15px;
 }
