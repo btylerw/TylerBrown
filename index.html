@@ -82,10 +82,12 @@
             </div>
             <div id="contact" class="contact">
                 Send me an e-mail!
-                <form action="" class="contact">
+                <form action="https://formsubmit.co/brown.tyler.w@gmail.com" class="contact" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="name" placeholder="Name" class="form-fields" required>
                     <input type="email" name="email" placeholder="Email" class="form-fields" required>
                     <input type="text" name="message" placeholder="Message" class="form-fields message-field"required>
+                    <input type="hidden" name="_next" value="./thanks.html">
                     <button type="submit" class="form-btn">Send</button>
                 </form>
             </div>
