@@ -177,8 +177,17 @@ body {
 
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(5, 2fr);
-    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+}
+
+.skills-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px;
 }
 
 .links {
@@ -221,12 +230,25 @@ body {
     width: 50%;
     height: 30px;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .message-field {
     height: 100px;
+    overflow: auto;
 }
 
 .form-btn {
-    width: 50%;
+    width: 51%;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 24px;
+    border: none;
+    background-color: aquamarine;
+}
+
+.form-btn:hover {
+    background-color: rgb(16, 83, 60);
+    color: white;
+    transition: .2s ease;
 }

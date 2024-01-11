@@ -134,26 +134,55 @@
             <div id="skills" class="skills">
                 <p class="title">Skills</p>
                 <div class="skills-container">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" title="HTML" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" title="CSS" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" title="MongoDB" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="NodeJS" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" title="Python"class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" title="C"class="icons"/>              
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" title="C++" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg" title="Ruby" class="icons"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" title="Java" class="icons"/>        
+                    <div class="skills-title">
+                        <img src="./images/JavaScript.svg" title="JavaScript" class="icons"/>
+                        JavaScript
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/HTML5.svg" title="HTML" class="icons"/>
+                        HTML
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/CSS3.svg" title="CSS" class="icons"/>
+                        CSS
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/MongoDB.svg" title="MongoDB" class="icons"/>
+                        MongoDB
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/Node.js.svg" title="NodeJS" class="icons"/>
+                        Node.js
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/Python.svg" title="Python"class="icons"/>
+                        Python
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/C.svg" title="C"class="icons"/>              
+                        C
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/cplusplus.svg" title="C++" class="icons"/>
+                        C++
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/Ruby.svg" title="Ruby" class="icons"/>
+                        Ruby
+                    </div>
+                    <div class="skills-title">
+                        <img src="./images/Java.svg" title="Java" class="icons"/>        
+                        Java
+                    </div>
                 </div>
             </div>
             <div id="contact" class="contact">
                 Send me an e-mail!
-                <form action="https://formsubmit.co/brown.tyler.w@gmail.com" class="contact" method="POST">
+                <form method="POST" class="contact" id="contact-form" onsubmit="return submitForm()">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="name" placeholder="Name" class="form-fields" required>
                     <input type="email" name="email" placeholder="Email" class="form-fields" required>
-                    <input type="text" name="message" placeholder="Message" class="form-fields message-field"required>
-                    <input type="hidden" name="_next" value="./thanks.html">
+                    <textarea rows="5" cols="80" name="message" placeholder="Message" class="form-fields message-field" required></textarea>
                     <button type="submit" class="form-btn">Send</button>
                 </form>
             </div>
