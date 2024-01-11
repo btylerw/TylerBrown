@@ -19,6 +19,7 @@ body {
     background-color: rgb(54, 52, 52);
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .navbar {
@@ -117,11 +118,22 @@ body {
     gap: 20px;
     background-color: rgb(34, 32, 32);
     max-width: 400px;
+    height: 250px;
 }
 
 .proj-info {
     display: flex;
     gap: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.proj-btn-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    bottom: 5px;
 }
 
 .proj-btn {
@@ -135,6 +147,12 @@ body {
     font-size: 20px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.proj-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .proj-btn:hover {
@@ -175,12 +193,12 @@ body {
 
 .project-img {
     border-radius: 15px;
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
 .puck-wars {
-    height: 300px;
+    height: 200px;
     width: auto;
 }
 
