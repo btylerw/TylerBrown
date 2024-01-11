@@ -116,6 +116,7 @@ body {
     position: relative;
     gap: 20px;
     background-color: rgb(34, 32, 32);
+    max-width: 400px;
 }
 
 .proj-info {
@@ -174,7 +175,7 @@ body {
 
 .project-img {
     border-radius: 15px;
-    height: 200px;
+    height: 100px;
     width: auto;
 }
 
