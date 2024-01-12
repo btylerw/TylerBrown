@@ -251,4 +251,5 @@ body {
     background-color: rgb(16, 83, 60);
     color: white;
     transition: .2s ease;
+    cursor: pointer;
 }
